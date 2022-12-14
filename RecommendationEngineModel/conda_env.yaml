@@ -1,0 +1,12 @@
+name: project_environment
+channels:
+- conda-forge
+dependencies:
+- python=3.8.10
+- pip=20.2
+- scikit-surprise=1.1.0
+- pip:
+  - inference-schema
+  - azureml-defaults
+  - azureml-designer-classic-modules==0.0.176
+  - azureml-designer-serving==0.0.12
